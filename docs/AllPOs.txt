@@ -814,3 +814,8 @@ Purpose:	When writing debug information the context will be output from outside 
 Call:		!labelredefine !labelredefineend
 Purpose:	Allows labels to be redefined in the following code, until !labelredefineend is used.
 				See TestLabelRedefinition.a for an example.
+
+
+
+Call:		!disablesegmentcheck and !enablesegmentcheck
+Purpose:	Disables the segment overlap check so that later code can patch existing code
